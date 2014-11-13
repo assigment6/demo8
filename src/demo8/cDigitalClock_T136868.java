@@ -16,7 +16,7 @@ public class cDigitalClock_T136868 extends JFrame {
 
 	cDigitalClock_T136868() {
 		setSize(300, 300);
-		setTitle("T136868- dong ho dien tu abc");
+		setTitle("T136868- dong ho dien tu abc13");
 		setLocation(150, 150);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new GridBagLayout());
