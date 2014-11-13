@@ -16,14 +16,14 @@ public class cDigitalClock_T136868 extends JFrame {
 
 	cDigitalClock_T136868() {
 		setSize(300, 300);
-		setTitle("T136868- dong ho");
+		setTitle("T136868- dong ho dien tu");
 		setLocation(150, 150);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLayout(new GridBagLayout());
 
 		time = new JLabel("");
 		time.setFont(new Font("SansSerif", Font.BOLD, 40));
-		time.setForeground(Color.BLACK);
+		time.setForeground(Color.RED);
 		add(time);
 		new Thread(new Runnable() {
 			public void run() {
