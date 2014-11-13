@@ -22,7 +22,7 @@ public class cDigitalClock_T136868 extends JFrame {
 		setLayout(new GridBagLayout());
 
 		time = new JLabel("");
-		time.setFont(new Font("SansSerif", Font.BOLD, 40));
+		time.setFont(new Font("SansSerif", Font.BOLD, 50));
 		time.setForeground(Color.RED);
 		add(time);
 		new Thread(new Runnable() {
